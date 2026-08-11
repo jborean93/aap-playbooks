@@ -1,4 +1,4 @@
-- hosts: testhost
+- hosts: all
   gather_facts: false
   tasks:
   - set_fact:
