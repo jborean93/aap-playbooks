@@ -1,0 +1,25 @@
+version: 3
+
+dependencies:
+  ansible_core:
+    package_pip: https://github.com/jborean93/ansible/archive/refs/heads/secrets.tar.gz
+  ansible_runner:
+    package_pip: ansible-runner
+  galaxy:
+    collections: []
+  python:
+  - pyahocorasick
+  python_interpreter:
+    package_system: python3.14
+    python_path: /usr/bin/python3.14
+  system: []
+
+additional_build_steps:
+  prepend_galaxy:
+  - RUN /usr/bin/python3.14 -m pip install pyahocorasick
+  prepend_final:
+  - RUN /usr/bin/python3.14 -m pip install pyahocorasick
+
+images:
+  base_image:
+    name: registry.access.redhat.com/ubi10/ubi:latest
