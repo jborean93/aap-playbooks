@@ -19,6 +19,7 @@ additional_build_steps:
   - RUN /usr/bin/python3.14 -m pip install pyahocorasick
   prepend_final:
   - RUN /usr/bin/python3.14 -m pip install pyahocorasick
+  - ENV ANSIBLE_DEVEL_WARNING=false
 
 images:
   base_image:

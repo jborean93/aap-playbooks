@@ -1,9 +1,9 @@
 name: Build and Publish Ansible Execution Environment
 
 on:
-  push:
-    branches:
-      - main
+  release:
+    types:
+    - published
 
 env:
   REGISTRY: ghcr.io
@@ -11,6 +11,7 @@ env:
 
 jobs:
   build-and-push:
+    if: startsWith(github.event.release.tag_name, 'v')
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -35,12 +36,21 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Strip v from release tag version
+        run: |
+          ORIGINAL_STR="${{ github.event.release.tag_name }}"
+          STRIPPED_STR="${ORIGINAL_STR:1}"
+          echo "IMAGE_VERSION=$STRIPPED_STR" >> $GITHUB_ENV
+
       - name: Build Execution Environment
         run: >-
           cd ee &&
           ansible-builder build
           --tag ${{ env.REGISTRY }}/${{ github.actor }}/${{ env.IMAGE_NAME }}:latest
+          --tag ${{ env.REGISTRY }}/${{ github.actor }}/${{ env.IMAGE_NAME }}:${{ env.IMAGE_VERSION }}
           --verbosity 2
 
       - name: Push Image to GHCR
-        run: podman push ${{ env.REGISTRY }}/${{ github.actor }}/${{ env.IMAGE_NAME }}:latest
+        run: |
+          podman push ${{ env.REGISTRY }}/${{ github.actor }}/${{ env.IMAGE_NAME }}:latest
+          podman push ${{ env.REGISTRY }}/${{ github.actor }}/${{ env.IMAGE_NAME }}:${{ env.IMAGE_VERSION }}
