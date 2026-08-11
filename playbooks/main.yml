@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: localhost
   gather_facts: false
   tasks:
   - set_fact:
@@ -6,3 +6,6 @@
 
   - debug:
       msg: Testing '{{ new_secret }}'
+
+  - debug:
+      var: vars
