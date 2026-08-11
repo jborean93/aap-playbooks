@@ -1,11 +1,15 @@
-- hosts: all
+- hosts: testhost
   gather_facts: false
   tasks:
   - set_fact:
       new_secret: '{{ "My Secret" | register_secret }}'
 
+  - ansible_info:
+      info_opt: Option value
+    register: info
+
   - debug:
       msg: Testing '{{ new_secret }}'
 
   - debug:
-      var: hostvars[inventory_hostname]
+      var: info
