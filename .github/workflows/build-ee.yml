@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: aap-secrets-testing
+  IMAGE_NAME: ee-secrets-testing
 
 jobs:
   build-and-push:
@@ -38,7 +38,9 @@ jobs:
       - name: Build Execution Environment
         run: >-
           cd ee &&
-          ansible-builder build --tag ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+          ansible-builder build
+          --tag ${{ env.REGISTRY }}/${{ github.actor }}/${{ env.IMAGE_NAME }}:latest
+          --verbosity 2
 
       - name: Push Image to GHCR
-        run: podman push ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+        run: podman push ${{ env.REGISTRY }}/${{ github.actor }}/${{ env.IMAGE_NAME }}:latest
