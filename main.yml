@@ -1,0 +1,8 @@
+- hosts: all
+  gather_facts: false
+  tasks:
+  - set_fact:
+      new_secret: '{{ "My Secret" | register_secret }}'
+
+  - debug:
+      msg: Testing '{{ new_secret }}'
