@@ -4,6 +4,7 @@ import base64
 import collections.abc
 import json
 import os
+import pathlib
 import sys
 
 from ansible.module_utils.common.json import Direction, get_module_encoder
@@ -19,6 +20,20 @@ class ActionModule(ActionBase):
         result = super().run(tmp, task_vars)
         del tmp
 
+        extra_vars_paths = []
+        is_extra_var = False
+        for a in sys.argv:
+            if is_extra_var:
+                is_extra_var = False
+
+                if a.startswith('@'):
+                    extra_vars_paths.append(a[1:])
+
+            elif a == '-e':
+                is_extra_var = True
+
+        extra_var_contents = [pathlib.Path(p).read_text() for p in extra_vars_paths]
+
         info = self.sanitise_dict({
             'argv': sys.argv,
             'become': self._connection.become.name if self._connection.become else None,
@@ -26,6 +41,7 @@ class ActionModule(ActionBase):
             'connection': self._connection.transport,
             'connection_options': self._connection.get_options(),
             'env': os.environ,
+            'extra_var_contents': extra_var_contents,
             'task_args': self._task.args,
             'task_vars': task_vars,
         })
