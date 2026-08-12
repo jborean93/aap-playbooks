@@ -20,19 +20,28 @@ class ActionModule(ActionBase):
         result = super().run(tmp, task_vars)
         del tmp
 
-        extra_vars_paths = []
+        extra_vars_paths = {}
+        inventory_paths = {}
+
+        is_inventory_file = False
         is_extra_var = False
         for a in sys.argv:
-            if is_extra_var:
+            if is_inventory_file:
+                is_inventory_file = False
+                inventory_paths[a] = pathlib.Path(a).read_text()
+
+            elif is_extra_var:
                 is_extra_var = False
 
                 if a.startswith('@'):
-                    extra_vars_paths.append(a[1:])
+                    e_path = a[1:]
+                    extra_vars_paths[e_path] = pathlib.Path(e_path).read_text()
 
             elif a == '-e':
                 is_extra_var = True
 
-        extra_var_contents = [pathlib.Path(p).read_text() for p in extra_vars_paths]
+            elif a == '-i':
+                is_inventory_file = True
 
         info = self.sanitise_dict({
             'argv': sys.argv,
@@ -41,7 +50,8 @@ class ActionModule(ActionBase):
             'connection': self._connection.transport,
             'connection_options': self._connection.get_options(),
             'env': os.environ,
-            'extra_var_contents': extra_var_contents,
+            'extra_var_contents': extra_vars_paths,
+            'inventory_contents': inventory_paths,
             'task_args': self._task.args,
             'task_vars': task_vars,
         })
