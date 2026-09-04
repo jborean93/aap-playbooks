@@ -1,0 +1,8 @@
+- hosts: localhost
+  gather_facts: false
+  tasks:
+  - uri:
+      url: https://httpbin.org/basic-auth/username/password
+      url_username: username
+      url_password: password
+    register: uri_result

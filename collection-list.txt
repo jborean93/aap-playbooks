@@ -1,0 +1,358 @@
+adfinis.maintenance
+  report (collection 0.1.36)
+    CALLBACK_NAME=adfinis.maintenance.report  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+alikins.collection_inspect
+  collection_inspect (collection 0.0.49)
+    CALLBACK_NAME=collection_inspect  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+amazon.aws
+  aws_resource_actions (collection 11.4.0)
+    CALLBACK_NAME=amazon.aws.aws_resource_actions  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.8
+ammarlakis.print_changes
+  print_changes (collection 1.0.0)
+    CALLBACK_NAME=changed_only  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+anophelesgreyhoe.general
+  cgroup_memory_recap (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.cgroup_memory_recap  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+  context_demo (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.context_demo  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+  counter_enabled (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.counter_enabled  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+  dense (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=dense  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+  diy (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.diy  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+  elastic (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.elastic  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  hipchat (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.hipchat  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  jabber (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.jabber  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  log_plays (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.log_plays  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  loganalytics (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=loganalytics  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  logdna (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.logdna  CALLBACK_TYPE=notification  CALLBACK_VERSION=0.1
+  logentries (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.logentries  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  logstash (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.logstash  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  mail (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.mail  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  nrdp (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.nrdp  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  null (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.null  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+  opentelemetry (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.opentelemetry  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  say (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.say  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  selective (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.selective  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+  slack (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.slack  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  splunk (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.splunk  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  sumologic (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.sumologic  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  syslog_json (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.syslog_json  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  unixy (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.unixy  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+  yaml (collection 7.6.0-backport-nmcli.1)
+    CALLBACK_NAME=community.general.yaml  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+ansible.posix
+  cgroup_perf_recap (collection 2.2.2)
+    CALLBACK_NAME=ansible.posix.cgroup_perf_recap  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+  debug (collection 2.2.2)
+    CALLBACK_NAME=ansible.posix.debug  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+  json (collection 2.2.2)
+    CALLBACK_NAME=ansible.posix.json  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+  jsonl (collection 2.2.2)
+    CALLBACK_NAME=ansible.posix.jsonl  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+  profile_roles (collection 2.2.2)
+    CALLBACK_NAME=ansible.posix.profile_roles  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+  profile_tasks (collection 2.2.2)
+    CALLBACK_NAME=ansible.posix.profile_tasks  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+  timer (collection 2.2.2)
+    CALLBACK_NAME=ansible.posix.timer  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+ansilab_nl.demo_one
+  status (collection 1.0.2)
+    CALLBACK_NAME=status  CALLBACK_TYPE=unknown  CALLBACK_VERSION=2.0
+ansilabnl.demo_one
+  status (collection 1.0.10)
+    CALLBACK_NAME=status  CALLBACK_TYPE=unknown  CALLBACK_VERSION=2.0
+cahlchang.bell
+  bell (collection 1.0.1)
+    CALLBACK_NAME=cahlchang.bell.bell  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+cdillc.splunk
+  asis (collection 0.26.3)
+    CALLBACK_NAME=asis  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+chrismeyersfsu.ansible_content_example
+  my_callback (collection 0.0.1)
+    CALLBACK_NAME=my_callback  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+community.general
+  cgroup_memory_recap (collection 13.3.0)
+    CALLBACK_NAME=community.general.cgroup_memory_recap  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+  context_demo (collection 13.3.0)
+    CALLBACK_NAME=community.general.context_demo  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+  counter_enabled (collection 13.3.0)
+    CALLBACK_NAME=community.general.counter_enabled  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+  default_without_diff (collection 13.3.0)
+    CALLBACK_NAME=community.general.default_without_diff  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+  dense (collection 13.3.0)
+    CALLBACK_NAME=dense  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+  diy (collection 13.3.0)
+    CALLBACK_NAME=community.general.diy  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+  elastic (collection 13.3.0)
+    CALLBACK_NAME=community.general.elastic  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  jabber (collection 13.3.0)
+    CALLBACK_NAME=community.general.jabber  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  log_plays (collection 13.3.0)
+    CALLBACK_NAME=community.general.log_plays  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  loganalytics (collection 13.3.0)
+    CALLBACK_NAME=loganalytics  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  loganalytics_ingestion (collection 13.3.0)
+    CALLBACK_NAME=loganalytics_ingestion  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  logdna (collection 13.3.0)
+    CALLBACK_NAME=community.general.logdna  CALLBACK_TYPE=notification  CALLBACK_VERSION=0.1
+  logentries (collection 13.3.0)
+    CALLBACK_NAME=community.general.logentries  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  logstash (collection 13.3.0)
+    CALLBACK_NAME=community.general.logstash  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  mail (collection 13.3.0)
+    CALLBACK_NAME=community.general.mail  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  nrdp (collection 13.3.0)
+    CALLBACK_NAME=community.general.nrdp  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  null (collection 13.3.0)
+    CALLBACK_NAME=community.general.null  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+  opentelemetry (collection 13.3.0)
+    CALLBACK_NAME=community.general.opentelemetry  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  print_task (collection 13.3.0)
+    CALLBACK_NAME=community.general.print_task  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+  say (collection 13.3.0)
+    CALLBACK_NAME=community.general.say  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  selective (collection 13.3.0)
+    CALLBACK_NAME=community.general.selective  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+  slack (collection 13.3.0)
+    CALLBACK_NAME=community.general.slack  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  splunk (collection 13.3.0)
+    CALLBACK_NAME=community.general.splunk  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  sumologic (collection 13.3.0)
+    CALLBACK_NAME=community.general.sumologic  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  syslog_json (collection 13.3.0)
+    CALLBACK_NAME=community.general.syslog_json  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  tasks_only (collection 13.3.0)
+    CALLBACK_NAME=community.general.tasks_only  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+  timestamp (collection 13.3.0)
+    CALLBACK_NAME=community.general.timestamp  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+  unixy (collection 13.3.0)
+    CALLBACK_NAME=community.general.unixy  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+community.grafana
+  grafana_annotations (collection 2.3.0)
+    CALLBACK_NAME=community.grafana.grafana_annotations  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+confluent.platform
+  support_bundle_on_failure (collection 8.3.0)
+    CALLBACK_NAME=support_bundle_on_failure  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+derf974.azdevopslog
+  azdevopslog (collection 1.0.1)
+    CALLBACK_NAME=azdevopslog  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=1.0
+drzln0.akeyless
+  akeyless_redactor (collection 0.2.20)
+    CALLBACK_NAME=drzln0.akeyless.akeyless_redactor  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+dseeley.redact_sensitive
+  redact_sensitive (collection 0.0.3)
+    CALLBACK_NAME=redact_sensitive  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+ebdruplab.automation
+  http_event (collection 2.0.0)
+    CALLBACK_NAME=unknown  CALLBACK_TYPE=unknown  CALLBACK_VERSION=unknown
+  smtp_event (collection 2.0.0)
+    CALLBACK_NAME=unknown  CALLBACK_TYPE=unknown  CALLBACK_VERSION=unknown
+evgeni.foreman
+  foreman (collection 1.5.0-dev3)
+    CALLBACK_NAME=evgeni.foreman.foreman  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+firstset.common_operations
+  report (collection 0.0.1)
+    CALLBACK_NAME=firstset.common_operations.report  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+firstset.fogo_community
+  report (collection 0.1.4)
+    CALLBACK_NAME=firstset.fogo_community.report  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+fredwangwang.log_sanitize
+  sanitize (collection 1.0.1)
+    CALLBACK_NAME=sanitize  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+hpe.monkeyble
+  monkeyble_callback (collection 1.7.1)
+    CALLBACK_NAME=unknown  CALLBACK_TYPE=unknown  CALLBACK_VERSION=unknown
+iackit.main
+  failure_summary (collection 0.5.0)
+    CALLBACK_NAME=failure_summary  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+ipbhat.iqnos
+  infnstdout (collection 1.0.5)
+    CALLBACK_NAME=infinera.iqnos.infnstdout  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+ipbhat.sample
+  infnstdout (collection 1.0.0)
+    CALLBACK_NAME=infnstdout  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+itlook.it
+  callback (collection 1.1.1)
+    CALLBACK_NAME=itlook.it.callback  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+ivansible.asterisk
+  unixy2 (collection 1.0.0)
+    CALLBACK_NAME=unixy2  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+ivansible.base
+  unixy2 (collection 1.0.0)
+    CALLBACK_NAME=unixy2  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+ivansible.cert
+  unixy2 (collection 1.0.0)
+    CALLBACK_NAME=unixy2  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+ivansible.devel
+  unixy2 (collection 1.0.0)
+    CALLBACK_NAME=unixy2  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+ivansible.entware
+  unixy2 (collection 1.0.0)
+    CALLBACK_NAME=unixy2  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+ivansible.linux
+  unixy2 (collection 1.0.0)
+    CALLBACK_NAME=unixy2  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+ivansible.ndms
+  unixy2 (collection 1.0.0)
+    CALLBACK_NAME=unixy2  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+ivansible.nginx
+  unixy2 (collection 1.0.0)
+    CALLBACK_NAME=unixy2  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+ivansible.server
+  unixy2 (collection 1.0.0)
+    CALLBACK_NAME=unixy2  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+ivansible.termux
+  unixy2 (collection 1.0.0)
+    CALLBACK_NAME=unixy2  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+ivansible.vagrant
+  unixy2 (collection 1.0.1)
+    CALLBACK_NAME=unixy2  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+juniper.device
+  jsnapy (collection 2.0.2)
+    CALLBACK_NAME=jsnapy  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+jyothishkshatri.splunk_enterprise
+  splunk_advanced (collection 1.3.0)
+    CALLBACK_NAME=enterprise.splunk.splunk_advanced  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  splunk_diagnostic (collection 1.3.0)
+    CALLBACK_NAME=enterprise.splunk.splunk_diagnostic  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+keepersecurity.keeper_secrets_manager
+  keeper_redact (collection 1.4.0)
+    CALLBACK_NAME=keeper_redact  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+kitos9112.grafana
+  grafana_annotations (collection 3.0.0)
+    CALLBACK_NAME=community.grafana.grafana_annotations  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+li_gru.posix
+  cgroup_perf_recap (collection 0.0.1)
+    CALLBACK_NAME=ansible.posix.cgroup_perf_recap  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+  debug (collection 0.0.1)
+    CALLBACK_NAME=ansible.posix.debug  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+  json (collection 0.0.1)
+    CALLBACK_NAME=ansible.posix.json  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+  jsonl (collection 0.0.1)
+    CALLBACK_NAME=ansible.posix.jsonl  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+  profile_roles (collection 0.0.1)
+    CALLBACK_NAME=ansible.posix.profile_roles  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+  profile_tasks (collection 0.0.1)
+    CALLBACK_NAME=ansible.posix.profile_tasks  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+  timer (collection 0.0.1)
+    CALLBACK_NAME=ansible.posix.timer  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+lukasjuhrich.ceph_ansible
+  installer_checkpoint (collection 4.0.14)
+    CALLBACK_NAME=installer_checkpoint  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+majeinfo.resource_cleaner
+  resource_cleaner (collection 1.0.2)
+    CALLBACK_NAME=resource_cleaner  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+manala.roles
+  deploy_log (collection 5.5.2)
+    CALLBACK_NAME=manala_deploy_log  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+markuman.nextcloud
+  talk (collection 29.0.4)
+    CALLBACK_NAME=markuman.nextcloud.talk  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+mhansen.ansible_trace
+  trace (collection 0.0.8)
+    CALLBACK_NAME=trace  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+midnya.rlo
+  rlo_cb (collection 0.5.0)
+    CALLBACK_NAME=rlo_cb  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+mnecas.ovirt
+  stdout (collection 1.5.5)
+    CALLBACK_NAME=stdout  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+moreati.rich
+  rich (collection 0.2.0)
+    CALLBACK_NAME=moreati.rich.rich  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+n16hth4wkk.workstation
+  andromeda (collection 1.0.0)
+    CALLBACK_NAME=andromeda  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+  unixy (collection 1.0.0)
+    CALLBACK_NAME=n16hth4wkk.workstation.unixy  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+netcloud.ncae
+  extapi_phase (collection 2.0.2)
+    CALLBACK_NAME=netcloud.ncae.extapi_phase  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+newswangerd.c1
+  faux (collection 1.0.1)
+    CALLBACK_NAME=unknown  CALLBACK_TYPE=unknown  CALLBACK_VERSION=unknown
+nitzmahone.hack
+  hack (collection 0.0.1)
+    CALLBACK_NAME=unknown  CALLBACK_TYPE=unknown  CALLBACK_VERSION=unknown
+omnia.discovery
+  omnia_default (collection 2.2.0)
+    CALLBACK_NAME=omnia_default  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+omnia.orchestrator
+  omnia_default (collection 3.0.0)
+    CALLBACK_NAME=omnia_default  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+osism.commons
+  still_alive (collection 0.20260724.0)
+    CALLBACK_NAME=osism.commons.still_alive  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+ovirt.ovirt
+  stdout (collection 3.2.2)
+    CALLBACK_NAME=stdout  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+pkubica.ovirt
+  stdout (collection 1.4.3)
+    CALLBACK_NAME=stdout  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+rangeid.grafana
+  grafana_annotations (collection 2.3.0)
+    CALLBACK_NAME=rangeid.grafana.grafana_annotations  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+rcx_one.linkoverlay
+  journal (collection 0.1.0)
+    CALLBACK_NAME=rcx_one.linkoverlay.journal  CALLBACK_TYPE=notification  CALLBACK_VERSION=0.1
+rrey.grafana
+  grafana_annotations (collection 1.0.1)
+    CALLBACK_NAME=grafana_annotations  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+seckatie.agents
+  fork_safety (collection 0.1.0)
+    CALLBACK_NAME=seckatie.agents.fork_safety  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+sgaduuw.johnny
+  callback (collection 0.3.0)
+    CALLBACK_NAME=sgaduuw.johnny.callback  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+shinysaana.rlo
+  rlo_cb (collection 0.4.4)
+    CALLBACK_NAME=rlo_cb  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+sivel.toiletwater
+  cprofile (collection 0.0.20)
+    CALLBACK_NAME=sivel.toiletwater.cprofile  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+  dump_stats (collection 0.0.20)
+    CALLBACK_NAME=sivel.toiletwater.dump_stats  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=2.0
+sshnaidm.openai
+  openai (collection 1.2.3)
+    CALLBACK_NAME=sshnaidm.openai.openai  CALLBACK_TYPE=aggregate  CALLBACK_VERSION=1.0
+stefanfluit.kirby
+  kirby (collection 2026.6.1)
+    CALLBACK_NAME=kirby  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+theforeman.foreman
+  foreman (collection 5.11.0)
+    CALLBACK_NAME=theforeman.foreman.foreman  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+thoteam.var_as_file
+  clean_var_as_file (collection 1.0.1)
+    CALLBACK_NAME=thoteam.var_as_file.clean_var_as_file  CALLBACK_TYPE=utility  CALLBACK_VERSION=2.0
+vastdata.vms
+  timestamp (collection 2.1.0)
+    CALLBACK_NAME=vastdata.vms.timestamp  CALLBACK_TYPE=stdout  CALLBACK_VERSION=2.0
+vitabaks.autobase
+  json_log (collection 2.10.0)
+    CALLBACK_NAME=json_log  CALLBACK_TYPE=notification  CALLBACK_VERSION=1.0
+zjleblanc.utils
+  host_failed_at (collection 1.3.9)
+    CALLBACK_NAME=host_failed_at  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0
+  host_failed_at_base (collection 1.3.9)
+    CALLBACK_NAME=host_failed_at_base  CALLBACK_TYPE=notification  CALLBACK_VERSION=2.0

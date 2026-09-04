@@ -1,0 +1,854 @@
+{
+  "adfinis.maintenance.report": {
+    "collection_version": "0.1.36",
+    "name": "adfinis.maintenance.report",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "alikins.collection_inspect.collection_inspect": {
+    "collection_version": "0.0.49",
+    "name": "collection_inspect",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "amazon.aws.aws_resource_actions": {
+    "collection_version": "11.4.0",
+    "name": "amazon.aws.aws_resource_actions",
+    "type": "aggregate",
+    "version": "2.8"
+  },
+  "ammarlakis.print_changes.print_changes": {
+    "collection_version": "1.0.0",
+    "name": "changed_only",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.cgroup_memory_recap": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.cgroup_memory_recap",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.context_demo": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.context_demo",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.counter_enabled": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.counter_enabled",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.dense": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "dense",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.diy": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.diy",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.elastic": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.elastic",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.hipchat": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.hipchat",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.jabber": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.jabber",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.log_plays": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.log_plays",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.loganalytics": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "loganalytics",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.logdna": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.logdna",
+    "type": "notification",
+    "version": "0.1"
+  },
+  "anophelesgreyhoe.general.logentries": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.logentries",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.logstash": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.logstash",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.mail": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.mail",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.nrdp": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.nrdp",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.null": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.null",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.opentelemetry": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.opentelemetry",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.say": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.say",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.selective": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.selective",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.slack": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.slack",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.splunk": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.splunk",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.sumologic": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.sumologic",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.syslog_json": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.syslog_json",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.unixy": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.unixy",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "anophelesgreyhoe.general.yaml": {
+    "collection_version": "7.6.0-backport-nmcli.1",
+    "name": "community.general.yaml",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "ansible.posix.cgroup_perf_recap": {
+    "collection_version": "2.2.2",
+    "name": "ansible.posix.cgroup_perf_recap",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "ansible.posix.debug": {
+    "collection_version": "2.2.2",
+    "name": "ansible.posix.debug",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "ansible.posix.json": {
+    "collection_version": "2.2.2",
+    "name": "ansible.posix.json",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "ansible.posix.jsonl": {
+    "collection_version": "2.2.2",
+    "name": "ansible.posix.jsonl",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "ansible.posix.profile_roles": {
+    "collection_version": "2.2.2",
+    "name": "ansible.posix.profile_roles",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "ansible.posix.profile_tasks": {
+    "collection_version": "2.2.2",
+    "name": "ansible.posix.profile_tasks",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "ansible.posix.timer": {
+    "collection_version": "2.2.2",
+    "name": "ansible.posix.timer",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "ansilab_nl.demo_one.status": {
+    "collection_version": "1.0.2",
+    "name": "status",
+    "type": "unknown",
+    "version": "2.0"
+  },
+  "ansilabnl.demo_one.status": {
+    "collection_version": "1.0.10",
+    "name": "status",
+    "type": "unknown",
+    "version": "2.0"
+  },
+  "cahlchang.bell.bell": {
+    "collection_version": "1.0.1",
+    "name": "cahlchang.bell.bell",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "cdillc.splunk.asis": {
+    "collection_version": "0.26.3",
+    "name": "asis",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "chrismeyersfsu.ansible_content_example.my_callback": {
+    "collection_version": "0.0.1",
+    "name": "my_callback",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "community.general.cgroup_memory_recap": {
+    "collection_version": "13.3.0",
+    "name": "community.general.cgroup_memory_recap",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "community.general.context_demo": {
+    "collection_version": "13.3.0",
+    "name": "community.general.context_demo",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "community.general.counter_enabled": {
+    "collection_version": "13.3.0",
+    "name": "community.general.counter_enabled",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "community.general.default_without_diff": {
+    "collection_version": "13.3.0",
+    "name": "community.general.default_without_diff",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "community.general.dense": {
+    "collection_version": "13.3.0",
+    "name": "dense",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "community.general.diy": {
+    "collection_version": "13.3.0",
+    "name": "community.general.diy",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "community.general.elastic": {
+    "collection_version": "13.3.0",
+    "name": "community.general.elastic",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "community.general.jabber": {
+    "collection_version": "13.3.0",
+    "name": "community.general.jabber",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "community.general.log_plays": {
+    "collection_version": "13.3.0",
+    "name": "community.general.log_plays",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "community.general.loganalytics": {
+    "collection_version": "13.3.0",
+    "name": "loganalytics",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "community.general.loganalytics_ingestion": {
+    "collection_version": "13.3.0",
+    "name": "loganalytics_ingestion",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "community.general.logdna": {
+    "collection_version": "13.3.0",
+    "name": "community.general.logdna",
+    "type": "notification",
+    "version": "0.1"
+  },
+  "community.general.logentries": {
+    "collection_version": "13.3.0",
+    "name": "community.general.logentries",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "community.general.logstash": {
+    "collection_version": "13.3.0",
+    "name": "community.general.logstash",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "community.general.mail": {
+    "collection_version": "13.3.0",
+    "name": "community.general.mail",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "community.general.nrdp": {
+    "collection_version": "13.3.0",
+    "name": "community.general.nrdp",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "community.general.null": {
+    "collection_version": "13.3.0",
+    "name": "community.general.null",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "community.general.opentelemetry": {
+    "collection_version": "13.3.0",
+    "name": "community.general.opentelemetry",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "community.general.print_task": {
+    "collection_version": "13.3.0",
+    "name": "community.general.print_task",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "community.general.say": {
+    "collection_version": "13.3.0",
+    "name": "community.general.say",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "community.general.selective": {
+    "collection_version": "13.3.0",
+    "name": "community.general.selective",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "community.general.slack": {
+    "collection_version": "13.3.0",
+    "name": "community.general.slack",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "community.general.splunk": {
+    "collection_version": "13.3.0",
+    "name": "community.general.splunk",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "community.general.sumologic": {
+    "collection_version": "13.3.0",
+    "name": "community.general.sumologic",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "community.general.syslog_json": {
+    "collection_version": "13.3.0",
+    "name": "community.general.syslog_json",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "community.general.tasks_only": {
+    "collection_version": "13.3.0",
+    "name": "community.general.tasks_only",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "community.general.timestamp": {
+    "collection_version": "13.3.0",
+    "name": "community.general.timestamp",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "community.general.unixy": {
+    "collection_version": "13.3.0",
+    "name": "community.general.unixy",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "community.grafana.grafana_annotations": {
+    "collection_version": "2.3.0",
+    "name": "community.grafana.grafana_annotations",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "confluent.platform.support_bundle_on_failure": {
+    "collection_version": "8.3.0",
+    "name": "support_bundle_on_failure",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "derf974.azdevopslog.azdevopslog": {
+    "collection_version": "1.0.1",
+    "name": "azdevopslog",
+    "type": "aggregate",
+    "version": "1.0"
+  },
+  "drzln0.akeyless.akeyless_redactor": {
+    "collection_version": "0.2.20",
+    "name": "drzln0.akeyless.akeyless_redactor",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "dseeley.redact_sensitive.redact_sensitive": {
+    "collection_version": "0.0.3",
+    "name": "redact_sensitive",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "ebdruplab.automation.http_event": {
+    "collection_version": "2.0.0",
+    "name": "unknown",
+    "type": "unknown",
+    "version": "unknown"
+  },
+  "ebdruplab.automation.smtp_event": {
+    "collection_version": "2.0.0",
+    "name": "unknown",
+    "type": "unknown",
+    "version": "unknown"
+  },
+  "evgeni.foreman.foreman": {
+    "collection_version": "1.5.0-dev3",
+    "name": "evgeni.foreman.foreman",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "firstset.common_operations.report": {
+    "collection_version": "0.0.1",
+    "name": "firstset.common_operations.report",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "firstset.fogo_community.report": {
+    "collection_version": "0.1.4",
+    "name": "firstset.fogo_community.report",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "fredwangwang.log_sanitize.sanitize": {
+    "collection_version": "1.0.1",
+    "name": "sanitize",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "hpe.monkeyble.monkeyble_callback": {
+    "collection_version": "1.7.1",
+    "name": "unknown",
+    "type": "unknown",
+    "version": "unknown"
+  },
+  "iackit.main.failure_summary": {
+    "collection_version": "0.5.0",
+    "name": "failure_summary",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "ipbhat.iqnos.infnstdout": {
+    "collection_version": "1.0.5",
+    "name": "infinera.iqnos.infnstdout",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "ipbhat.sample.infnstdout": {
+    "collection_version": "1.0.0",
+    "name": "infnstdout",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "itlook.it.callback": {
+    "collection_version": "1.1.1",
+    "name": "itlook.it.callback",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "ivansible.asterisk.unixy2": {
+    "collection_version": "1.0.0",
+    "name": "unixy2",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "ivansible.base.unixy2": {
+    "collection_version": "1.0.0",
+    "name": "unixy2",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "ivansible.cert.unixy2": {
+    "collection_version": "1.0.0",
+    "name": "unixy2",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "ivansible.devel.unixy2": {
+    "collection_version": "1.0.0",
+    "name": "unixy2",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "ivansible.entware.unixy2": {
+    "collection_version": "1.0.0",
+    "name": "unixy2",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "ivansible.linux.unixy2": {
+    "collection_version": "1.0.0",
+    "name": "unixy2",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "ivansible.ndms.unixy2": {
+    "collection_version": "1.0.0",
+    "name": "unixy2",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "ivansible.nginx.unixy2": {
+    "collection_version": "1.0.0",
+    "name": "unixy2",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "ivansible.server.unixy2": {
+    "collection_version": "1.0.0",
+    "name": "unixy2",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "ivansible.termux.unixy2": {
+    "collection_version": "1.0.0",
+    "name": "unixy2",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "ivansible.vagrant.unixy2": {
+    "collection_version": "1.0.1",
+    "name": "unixy2",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "juniper.device.jsnapy": {
+    "collection_version": "2.0.2",
+    "name": "jsnapy",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "jyothishkshatri.splunk_enterprise.splunk_advanced": {
+    "collection_version": "1.3.0",
+    "name": "enterprise.splunk.splunk_advanced",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "jyothishkshatri.splunk_enterprise.splunk_diagnostic": {
+    "collection_version": "1.3.0",
+    "name": "enterprise.splunk.splunk_diagnostic",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "keepersecurity.keeper_secrets_manager.keeper_redact": {
+    "collection_version": "1.4.0",
+    "name": "keeper_redact",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "kitos9112.grafana.grafana_annotations": {
+    "collection_version": "3.0.0",
+    "name": "community.grafana.grafana_annotations",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "li_gru.posix.cgroup_perf_recap": {
+    "collection_version": "0.0.1",
+    "name": "ansible.posix.cgroup_perf_recap",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "li_gru.posix.debug": {
+    "collection_version": "0.0.1",
+    "name": "ansible.posix.debug",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "li_gru.posix.json": {
+    "collection_version": "0.0.1",
+    "name": "ansible.posix.json",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "li_gru.posix.jsonl": {
+    "collection_version": "0.0.1",
+    "name": "ansible.posix.jsonl",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "li_gru.posix.profile_roles": {
+    "collection_version": "0.0.1",
+    "name": "ansible.posix.profile_roles",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "li_gru.posix.profile_tasks": {
+    "collection_version": "0.0.1",
+    "name": "ansible.posix.profile_tasks",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "li_gru.posix.timer": {
+    "collection_version": "0.0.1",
+    "name": "ansible.posix.timer",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "lukasjuhrich.ceph_ansible.installer_checkpoint": {
+    "collection_version": "4.0.14",
+    "name": "installer_checkpoint",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "majeinfo.resource_cleaner.resource_cleaner": {
+    "collection_version": "1.0.2",
+    "name": "resource_cleaner",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "manala.roles.deploy_log": {
+    "collection_version": "5.5.2",
+    "name": "manala_deploy_log",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "markuman.nextcloud.talk": {
+    "collection_version": "29.0.4",
+    "name": "markuman.nextcloud.talk",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "mhansen.ansible_trace.trace": {
+    "collection_version": "0.0.8",
+    "name": "trace",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "midnya.rlo.rlo_cb": {
+    "collection_version": "0.5.0",
+    "name": "rlo_cb",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "mnecas.ovirt.stdout": {
+    "collection_version": "1.5.5",
+    "name": "stdout",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "moreati.rich.rich": {
+    "collection_version": "0.2.0",
+    "name": "moreati.rich.rich",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "n16hth4wkk.workstation.andromeda": {
+    "collection_version": "1.0.0",
+    "name": "andromeda",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "n16hth4wkk.workstation.unixy": {
+    "collection_version": "1.0.0",
+    "name": "n16hth4wkk.workstation.unixy",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "netcloud.ncae.extapi_phase": {
+    "collection_version": "2.0.2",
+    "name": "netcloud.ncae.extapi_phase",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "newswangerd.c1.faux": {
+    "collection_version": "1.0.1",
+    "name": "unknown",
+    "type": "unknown",
+    "version": "unknown"
+  },
+  "nitzmahone.hack.hack": {
+    "collection_version": "0.0.1",
+    "name": "unknown",
+    "type": "unknown",
+    "version": "unknown"
+  },
+  "omnia.discovery.omnia_default": {
+    "collection_version": "2.2.0",
+    "name": "omnia_default",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "omnia.orchestrator.omnia_default": {
+    "collection_version": "3.0.0",
+    "name": "omnia_default",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "osism.commons.still_alive": {
+    "collection_version": "0.20260724.0",
+    "name": "osism.commons.still_alive",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "ovirt.ovirt.stdout": {
+    "collection_version": "3.2.2",
+    "name": "stdout",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "pkubica.ovirt.stdout": {
+    "collection_version": "1.4.3",
+    "name": "stdout",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "rangeid.grafana.grafana_annotations": {
+    "collection_version": "2.3.0",
+    "name": "rangeid.grafana.grafana_annotations",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "rcx_one.linkoverlay.journal": {
+    "collection_version": "0.1.0",
+    "name": "rcx_one.linkoverlay.journal",
+    "type": "notification",
+    "version": "0.1"
+  },
+  "rrey.grafana.grafana_annotations": {
+    "collection_version": "1.0.1",
+    "name": "grafana_annotations",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "seckatie.agents.fork_safety": {
+    "collection_version": "0.1.0",
+    "name": "seckatie.agents.fork_safety",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "sgaduuw.johnny.callback": {
+    "collection_version": "0.3.0",
+    "name": "sgaduuw.johnny.callback",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "shinysaana.rlo.rlo_cb": {
+    "collection_version": "0.4.4",
+    "name": "rlo_cb",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "sivel.toiletwater.cprofile": {
+    "collection_version": "0.0.20",
+    "name": "sivel.toiletwater.cprofile",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "sivel.toiletwater.dump_stats": {
+    "collection_version": "0.0.20",
+    "name": "sivel.toiletwater.dump_stats",
+    "type": "aggregate",
+    "version": "2.0"
+  },
+  "sshnaidm.openai.openai": {
+    "collection_version": "1.2.3",
+    "name": "sshnaidm.openai.openai",
+    "type": "aggregate",
+    "version": "1.0"
+  },
+  "stefanfluit.kirby.kirby": {
+    "collection_version": "2026.6.1",
+    "name": "kirby",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "theforeman.foreman.foreman": {
+    "collection_version": "5.11.0",
+    "name": "theforeman.foreman.foreman",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "thoteam.var_as_file.clean_var_as_file": {
+    "collection_version": "1.0.1",
+    "name": "thoteam.var_as_file.clean_var_as_file",
+    "type": "utility",
+    "version": "2.0"
+  },
+  "vastdata.vms.timestamp": {
+    "collection_version": "2.1.0",
+    "name": "vastdata.vms.timestamp",
+    "type": "stdout",
+    "version": "2.0"
+  },
+  "vitabaks.autobase.json_log": {
+    "collection_version": "2.10.0",
+    "name": "json_log",
+    "type": "notification",
+    "version": "1.0"
+  },
+  "zjleblanc.utils.host_failed_at": {
+    "collection_version": "1.3.9",
+    "name": "host_failed_at",
+    "type": "notification",
+    "version": "2.0"
+  },
+  "zjleblanc.utils.host_failed_at_base": {
+    "collection_version": "1.3.9",
+    "name": "host_failed_at_base",
+    "type": "notification",
+    "version": "2.0"
+  }
+}
