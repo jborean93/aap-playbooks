@@ -3,8 +3,8 @@ version: 3
 dependencies:
   ansible_core:
     package_pip: https://github.com/jborean93/ansible/archive/refs/heads/secret-masker.tar.gz
-  # Relying on compat behaviour to work with redacting.
-  # ansible_runner:
+  ansible_runner:
+    package_pip: ansible-runner
   #   package_pip: https://github.com/jborean93/ansible-runner/archive/refs/heads/secret-masking.tar.gz
   galaxy:
     collections: []
