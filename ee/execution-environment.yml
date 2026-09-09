@@ -4,8 +4,8 @@ dependencies:
   ansible_core:
     package_pip: https://github.com/jborean93/ansible/archive/refs/heads/secret-masker.tar.gz
   ansible_runner:
-    package_pip: ansible-runner
-  #   package_pip: https://github.com/jborean93/ansible-runner/archive/refs/heads/secret-masking.tar.gz
+    # package_pip: ansible-runner
+    package_pip: https://github.com/jborean93/ansible-runner/archive/refs/heads/secret-masking.tar.gz
   galaxy:
     collections: []
   python: []
